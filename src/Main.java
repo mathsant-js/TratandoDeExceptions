@@ -16,6 +16,8 @@ public class Main {
             // Independente de ocorrer uma exceção ou não
             System.out.println("Encerrando o Programa");
         }
+        
+        Calculadora.calculadora();
     }
 
     public static int dividirPorZero(int numerador, int denominador) {
