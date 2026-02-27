@@ -10,6 +10,11 @@ public class Main {
 
             // Ele irá exibir a mensagem abaixo
             System.out.println("Não é possível dividir por 0 " + e);
+        } finally {
+
+            // O finally sempre irá executar
+            // Independente de ocorrer uma exceção ou não
+            System.out.println("Encerrando o Programa");
         }
     }
 
